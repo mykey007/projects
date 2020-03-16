@@ -8,25 +8,12 @@
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="./css/zoom.css">
-    <!-- Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/zoom-vanilla.js/dist/zoom.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel = "stylesheet" type = "text/css" href = "./css/style.css" />
 
 
-
-<script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-<script src="./js/transition.js"></script>
-<script src="./js/zoom.js"></script>
-        <link rel = "stylesheet" type = "text/css" href = "css/fonts.css" />
-
     <!-- <link rel="shortcut icon" type="image/x-icon" href="../assets/icon-tab.ico"> -->
-
-    <script src="https://use.fontawesome.com/a891bb0a11.js"></script>
-    
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="./js/script.js" charset="utf-8"></script>
   </head>
 
   <body>
@@ -61,14 +48,14 @@
       <div class="collapse navbar-collapse navbar-right" id="collapsible-nav">
         <ul class="nav navbar-nav">
           <li><a class="selected hvr-underline-from-left" href="./index.html#my-work">Projects</a></li>
-          <li><a class="hvr-underline-from-left" href="https://codepen.io/mykey" target="_blank">CodePen</a></li>
-          <!-- <li><a class="hvr-underline-from-left" href="https://github.io/mykey007" target="_blank">Github</a></li> -->
+          <li><a class="hvr-underline-from-left" href="https://codepen.io/mykey" target="_blank" rel="noopener">CodePen</a></li>
+          <li><a class="hvr-underline-from-left" href="https://github.io/mykey007" target="_blank" rel="noopener">Github</a></li>
         </ul>
       </div>
     </nav>
     <div class="container-fluid">
       <div class="row" style="margin-top: 150px">
-        <nav class="col-lg-3 col-md-3 hidden-sm hidden-xs">
+        <!-- <nav class="col-lg-3 col-md-3 hidden-sm hidden-xs">
           <div class="bs-docs-sidebar">
             <ul class="nav nav-stacked"id="sidebar">
 
@@ -88,10 +75,10 @@
                   <li><a href="#sketching">Sketching</a></li>
                   <li><a href="#design-direction">Design Direction</a></li>
                   <li><a href="#vision">Vision</a></li>
-                  <!-- <li><a href="#business">The Business Side</a></li>
+                  <li><a href="#business">The Business Side</a></li>
                   <li><a href="#relationships">Building Relationships</a></li>
                   <li><a href="#my-background">My Technical Background</a></li>
-                  <li><a href="#good-designer">What Makes a Good Designer</a></li> -->
+                  <li><a href="#good-designer">What Makes a Good Designer</a></li>
                 </ul>
               </li>
 
@@ -99,15 +86,15 @@
 
               <li>
                 <a href="#closing">In Closing</a>
-                <!-- <ul class="nav nav-stacked">
+                <ul class="nav nav-stacked">
                   <li><a href="#networking">Talking with More People</a></li>
                   <li><a href="#feedback">Asking for More Feedback</a></li>
-                </ul> -->
+                </ul>
               </li>
 
             </ul>
           </div>
-        </nav>
+        </nav> -->
 
         <div class="bg bg-acp" data-aos="fade-up" data-aos-duration="600"></div>
         <div class="jumbotron" 
@@ -121,16 +108,16 @@
         </div>
 
         <div class="col-lg-7 col-md-7 col-sm-10 col-xs-12 col-centered main-content">
-          <!-- <div data-aos="fade-up" data-aos-duration="600">
-            <h1 class="article-title">The Home Depot Internship</h1>
+          <div data-aos="fade-up" data-aos-duration="600">
+            <h1 class="article-title">The American College of Physicians</h1>
 
-            <p class="article-subtitle">Helping the Home Depot Developers Better Troubleshoot Cloud Deployments</p>
+            <p class="article-subtitle">Helping doctors and patients get the information they need.</p>
             <hr>
 
-            <img src="../../assets/THD-perspective.png" alt="The Home Depot Internship" class="img-responsive col-centered full-img">
-          </div> -->
+             <img data-action="zoom" src="./img/acp-dr-light.png" alt="American College of Physicians" data-aos="fade-up" data-aos-duration="400" class="img-responsive col-centered full-img" data-action="zoom">
+          </div>
 
-
+          <br><br><br><br><br><br>
           <section id="overview" class="group first-section">
               <br>
               <h3 data-aos="fade-up" data-aos-duration="400">Overview</h3>
@@ -168,7 +155,7 @@
               <p class="small-margin-bottom">I was brought to ACP as a senior front end web developer. The role was a great opportunity to explore information architecture, user journeys and interface design. </p>
               <p class="large-margin-bottom">At the heart of this process was converting something that was being treated as a waterfall project while the requirments called for an agile approach.</p>
 
-              <img class="img-responsive full-img" src="./img/amco/img/acp/m-1.png" data-aos="fade-left" data-aos-duration="700">
+              <img data-action="zoom" class="img-responsive full-img" src="./img/acp/m-1.png" data-aos="fade-left" data-aos-duration="700">
           </div>
         </section>
 
@@ -195,11 +182,11 @@
                 <p><span class="highlight highlight-THD">We used all available tools to see where the content is and where it can go from here.</span> </p>
 
 
-                <img src="./img/amco/img/acp/current.png" class="img-responsive full-img" data-aos="fade-up" data-aos-duration="600">
+                <img data-action="zoom" src="./img/acp/current.png" class="img-responsive full-img" data-aos="fade-up" data-aos-duration="600">
                 <br>
                 <p class="img-caption"><b>Before: </b>The existing layout emphasized only a few pieces of content which left people unable and unwilling to search for what they came to find.</p>
 
-                <img src="./img/amco/img/acp/spreadsheet-cats.png" class="img-responsive full-img" data-aos="fade-up" data-aos-duration="600">
+                <img data-action="zoom" src="./img/acp/spreadsheet-cats.png" class="img-responsive full-img" data-aos="fade-up" data-aos-duration="600">
                 <br>
                 <p class="img-caption">Using spreadsheets I was able to share information and organize content with multiple departments simultaneously. Everyone was on the same page.</p>
                
@@ -210,16 +197,16 @@
                   <h4>Sketching</h4>
                   <p>While I don't adhere to a design dogma, <span class="highlight highlight-THD">there are proven techniques at certain points of the process that allow greater insight into possible solutions to the problem.</span></p>
                   <p>Everything starts with a sketch. When you need to generate lots of ideas quickly, working through a problem in lo-fi speeds things up.</p>
-                  <img src="./img/amco/notes/acp-step1.png" class="img-responsive full-img" ><br>
+                  <img data-action="zoom" src="./img/notes/acp-step1.png" class="img-responsive full-img" ><br>
                   <p class="img-caption">Define the different types of content we are working with. </p>
                   <br>
-                  <img src="./img/amco/notes/acp-step3.png" class="img-responsive full-img" ><br>
+                  <img data-action="zoom" src="./img/notes/acp-step3.png" class="img-responsive full-img" ><br>
                   <p class="img-caption">Brainstorm how to make the mechanics easier for searching. </p>
                   <br>
-                  <img src="./img/amco/notes/acp-step4.png" class="img-responsive full-img" ><br>
+                  <img data-action="zoom" src="./img/notes/acp-step4.png" class="img-responsive full-img" ><br>
                   <p class="img-caption">Define the taxonomies and how to best use them. </p>
                   <br>
-                  <img src="./img/amco/notes/acp-step2.png" class="img-responsive full-img" ><br>
+                  <img data-action="zoom" src="./img/notes/acp-step2.png" class="img-responsive full-img" ><br>
                   <p class="img-caption">Before any coding happened it was necessary to think visually on paper. </p>
                   <br>
               </div>
@@ -230,18 +217,18 @@
 
                   <p>After the research was finished it was time to make some lo-fi wireframes. <span class="highlight highlight-THD">Wireframing is highly iterative</span> and many pieces of paper get tossed. Next time I'd want to get a more eco-friendly way to toss out ideas 🤔</p>
               
-                  <img src="./img/amco/img/acp/wire-home.png" class="img-responsive full-img"><br>
+                  <img data-action="zoom" src="./img/acp/wire-home.png" class="img-responsive full-img"><br>
                   <p class="img-caption">We wanted to help people create shortcuts by enriching their mental models.</p>
                   <br>
-                  <img src="./img/amco/img/acp/wire-list.png" class="img-responsive full-img"><br>
+                  <img data-action="zoom" src="./img/acp/wire-list.png" class="img-responsive full-img"><br>
                   <p class="img-caption">Provided familiar patterns help stop people from being overwhelmed. </p>
 
                   <br>
-                  <img src="./img/amco/img/acp/wire-search.png" class="img-responsive full-img"><br>
+                  <img data-action="zoom" src="./img/acp/wire-search.png" class="img-responsive full-img"><br>
                   <p class="img-caption">Displaying the ways people asked to filter and search for content. </p>
 
                   <br>
-                  <img src="./img/amco/img/acp/wire-auto-complete.png" class="img-responsive full-img"><br>
+                  <img data-action="zoom" src="./img/acp/wire-auto-complete.png" class="img-responsive full-img"><br>
                   <p class="img-caption">To complement the hierarchical architecture there is also an alphabetical list of topics. </p>
                   <br>
               </div>
@@ -254,17 +241,17 @@
 
                   <p><a href="https://xd.adobe.com/view/14b9fc35-57f8-4549-91ce-805d46d45c75/screen/d1c8106b-1355-4df7-92ea-a87f81234a7d/Web-1920-1" alt="user experience in Adobe XD" title="opens a new tab" target="_blank">Try the prototype here</a></p>
                   <br>
-                  <img src="./img/amco/img/acp/proto1.png" class="img-responsive full-img"><br>
+                  <img data-action="zoom" src="./img/acp/proto1.png" class="img-responsive full-img"><br>
                   <p class="img-caption">With the wireframes in place, it was time to add some basic interactions.</p>
                   <br>
-                  <img src="./img/amco/img/acp/proto2.png" class="img-responsive full-img"><br>
+                  <img data-action="zoom" src="./img/acp/proto2.png" class="img-responsive full-img"><br>
                   <p class="img-caption">Having an online prototype meant people could use it at their own pace. </p>
                   <br>
-                  <img src="./img/amco/img/acp/proto3.png" class="img-responsive full-img"><br>
+                  <img data-action="zoom" src="./img/acp/proto3.png" class="img-responsive full-img"><br>
                   <p class="img-caption">The responses were constructive, specific and ultimately actionable. </p>
                   <br>
 
-                  <img src="./img/amco/img/acp/proto4.png" class="img-responsive full-img"><br>
+                  <img data-action="zoom" src="./img/acp/proto4.png" class="img-responsive full-img"><br>
                   <p class="img-caption">I was able to avoid building for edge cases and focus on 99% of the users. </p>
                   <br>
                 </div>
@@ -286,16 +273,16 @@
               <hr>
 
               <div data-aos="fade-up" data-aos-duration="600">
-              <img src="./img/amco/img/acp/fin1.png" class="img-responsive full-img"><br>
+              <img data-action="zoom" src="./img/acp/fin1.png" class="img-responsive full-img"><br>
               <p class="img-caption"> I styled a modular front end to accommodate for daily iterations and features. </p>
                   <br>
-              <img src="./img/amco/img/acp/fin3.png" class="img-responsive full-img"><br>
+              <img data-action="zoom" src="./img/acp/fin3.png" class="img-responsive full-img"><br>
               <p class="img-caption">Even though not all of the features were released in 1.0, we were able to ship a robust MVP.  </p>
                   <br>
-              <img src="./img/amco/img/acp/fin2.png" class="img-responsive full-img"><br>
+              <img data-action="zoom" src="./img/acp/fin2.png" class="img-responsive full-img"><br>
               <p class="img-caption">Content is clear, scanable, easily identifiable and clickable. Even though not all of the features were released in 1.0, we were able to ship a robust MVP.  </p>
                   <br>
-              <img src="./img/amco/img/acp/fin4.png" class="img-responsive full-img"><br>
+              <img data-action="zoom" src="./img/acp/fin4.png" class="img-responsive full-img"><br>
               <p class="img-caption">A glossary of topics help people search alphabetically if they want. Content is clear, scanable, easily identifiable and clickable. Even though not all of the features were released in 1.0, we were able to ship a robust MVP.  </p>
 
                   <br>
@@ -329,7 +316,7 @@
                   Not every feature we planned on was incorporated into the launch. But moving fast and getting real-time feedback helped us keep the wire frames and prototypes just that: smaller parts of a whole.
                 </p>
                 <p>
-                  <a href="https://www.acponline.org/practice-resources/patient-education/online-resources" target="_blank">Click here to visit the site</a>.
+                  <a href="https://www.acponline.org/cme-moc/online-learning-center" target="_blank" rel="noopener">Click here to visit the site</a>.
                 </p>
               </div>
             </section>
@@ -366,5 +353,12 @@
         </div>
       </div>
     </div>
+    <script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="./js/transition.js"></script> 
+    <script src="https://cdn.jsdelivr.net/npm/zoom-vanilla.js/dist/zoom-vanilla.min.js"></script>
+    <script src="https://use.fontawesome.com/a891bb0a11.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./js/script.js" charset="utf-8"></script>
   </body>
 </html>
