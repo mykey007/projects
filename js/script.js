@@ -1,7 +1,10 @@
 $(function () {
-  $(document).scroll(function () {
-    var $nav = $(".navbar-fixed-top");
-    $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height() + 600);
+  $(window).scroll(function () {
+    if ($(document).scrollTop() > 90) {
+        $(".navbar-fixed-top").addClass("scrolled");
+    } else {
+        $(".navbar-fixed-top").removeClass("scrolled");
+    }
   });
 });
 
